@@ -1,0 +1,19 @@
+.background_footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    container: fluid;
+    max-width: large ;
+    max-height: fit-content;
+}
+
+.item{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: #ffd700;
+}
+
