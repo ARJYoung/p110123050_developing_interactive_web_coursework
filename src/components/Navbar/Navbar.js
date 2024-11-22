@@ -12,7 +12,7 @@ function Navbar() {
           <div class="col-sm">
             <Search/>
           </div>
-          <div class="col-md">
+          <div class="col-lg">
             <a href='/About'className='navbar-btn navbar-btn-hover' role="button">About us</a>
             <a href='/Products'className='navbar-btn navbar-btn-hover' role="button">Perk a Colas</a>
             <a href='/Creator'className='navbar-btn navbar-btn-hover' role="button">Creator</a>
