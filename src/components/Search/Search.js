@@ -4,7 +4,7 @@ function Search() {
   const [data, setData] = useState([]);
   const fetchData = () => {
 
-    return fetch(" colas")
+    return fetch("colas")
 
       .then((res) => res.json())
 
