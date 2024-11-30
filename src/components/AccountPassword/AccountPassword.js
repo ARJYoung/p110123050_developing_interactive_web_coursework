@@ -18,7 +18,7 @@ function AccountPassword() {
       <br/>
       <div class='row'>
         <div class='col-md'>    
-        <a href='/AccountPasswordChanged'className='navbar-btn navbar-btn-hover' role="button">Confirm</a>
+        <a href='/Password'className='navbar-btn navbar-btn-hover' role="button">Confirm</a>
         </div>
         <br/>
         <br/>

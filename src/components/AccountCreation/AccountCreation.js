@@ -20,7 +20,7 @@ function AccountCreation() {
       <br/>
       <div class='row'>
         <div class='col-md'>    
-        <a href='/AccountSuccesful'className='navbar-btn navbar-btn-hover' role="button">Confirm</a>
+        <a href='/Succesful'className='navbar-btn navbar-btn-hover' role="button">Confirm</a>
         </div>
     </div>
     </div>

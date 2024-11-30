@@ -14,7 +14,6 @@ import AccountLogIn from './components/AccountLogIn';
 import AccountPasswordChanged from './components/AccountPasswordChanged';
 import AccountPassword from './components/AccountPassword';
 import AccountSuccesful from'./components/AccountSuccesful';
-import AccountUnsuccesful from'./components/AccountUnsuccesful';
 import Blog from './components/Blog';
 import Chat from './components/Chat';
 import Creator from './components/Creator';
@@ -30,7 +29,6 @@ import Products from './components/Products';
 import ShoppingCart from './components/ShoppingCart';
 import ShoppingCheckout from './components/ShoppingCheckout';
 import ShoppingCheckoutComplete from './components/ShoppingCheckoutComplete';
-import ShoppingOverview from './components/ShoppingOverview';
 import TCs from './components/TCs';
 
 function App() {
@@ -49,7 +47,6 @@ function App() {
           <Route path="/AccountPassword" Component={AccountPassword}/>
           <Route path = "/Password" Component={AccountPasswordChanged}/>
           <Route path="/Succesful" Component={AccountSuccesful}/>
-          <Route path= "/Unsuccesful" Component={AccountUnsuccesful}/>
           <Route path= "/Blog" Component={Blog}/>
           <Route path= "/Chat" Component={Chat}/>
           <Route path="/Creator" Component={Creator}/>
@@ -64,7 +61,6 @@ function App() {
           <Route path="/ShoppingCart" Component={ShoppingCart} />
           <Route path="/Checkout" Component={ShoppingCheckout}/>
           <Route path="/Complete" Component={ShoppingCheckoutComplete}/>
-          <Route path="/CartOverview" Component={ShoppingOverview} />
           <Route path="/T&Cs" Component={TCs} />
         </Routes>
       </BrowserRouter>

@@ -7,8 +7,10 @@ function AccountPasswordChanged() {
     <p> Please login</p>
     <div class='row'>
         <div class='col-md'>    
-        <a href='/AccountPasswordChange'className='navbar-btn navbar-btn-hover' role="button">Confirm</a>
+        <a href='/LogIn'className='navbar-btn navbar-btn-hover' role="button">Login</a>
         </div>
+        <br/>
+        <br/>
         </div>
   </div>;
 }

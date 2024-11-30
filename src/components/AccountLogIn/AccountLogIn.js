@@ -7,8 +7,10 @@ function AccountLogIn() {
   return (
     <div className='mainContainer'>
       <div>
+        <br/>
         <h1> Log in</h1>
       </div>
+      <br/>
       <div className='row'>
         <input name="Email" id="Email" className="email-input" placeholder="Email" />
       </div>
@@ -19,10 +21,12 @@ function AccountLogIn() {
       <br/>
       <div class='row'>
         <div class='col-md'>    
-        <a href='/AccountSuccesful'className='navbar-btn navbar-btn-hover' role="button">Login</a>
+        <a href='/Succesful'className='navbar-btn navbar-btn-hover' role="button">Login</a>
         </div>
         <div class='col-lg'>
       <a href='/AccountPassword'>Forgotten password</a>
+      <br/>
+      <br/>
     </div>
     </div>
     </div>
