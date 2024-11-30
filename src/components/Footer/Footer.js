@@ -15,7 +15,7 @@ function Footer() {
       </div>
       <div class="col-md">
         <br/>
-        <ul><a href='/FAQ' class="item item-hover">FAQ</a></ul>
+        <ul><a href='/FAQs' class="item item-hover">FAQ</a></ul>
         <br/>
         <ul><a href='/TAndC' class="item item-hover">T&Cs</a></ul>
         <br/>

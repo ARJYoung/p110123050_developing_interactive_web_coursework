@@ -1,7 +1,8 @@
-import React from 'react';
+//import React from 'react';
+//import emptyCart from '../../Images/emptyCart.jpg';
 
 function ShoppingCart() {
-  return <div></div>;
+  return 
 }
 
 export default ShoppingCart;

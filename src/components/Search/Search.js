@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
+import '../Search/Search.css';
 
-function Search() {
+function Search(props) {
   const [data, setData] = useState([]);
   const fetchData = () => {
 

@@ -1,16 +1,14 @@
 .background{
-    background-color: #ffd700;
+    background-color: #4fb6db;
     border-color: black;
     border-width: auto;
     color: black;
     padding: 40px;
-    container: auto;
-    max-width: large ;
-    max-height: fit-content;
+
 }
 
 .navbar-btn{
-    background-color:#add8e6;
+    background-color:#98d8d8;
     font-size: 15px;
     color: #808080;
     border-color: black;
@@ -20,7 +18,7 @@
 }
 
 .navbar-btn:hover{
-    background-color:#ffd700;
+    background-color:#4fdbd4;
     color: black;
 }
 
@@ -29,6 +27,7 @@
         width: 100%; 
         float: left;
         padding: 5px;
+        padding-top: 50px;
     }
     .navbar-btn{
         background-color:#add8e6;
@@ -36,8 +35,8 @@
         color: #808080;
         border-color: black;
         border-radius: 10px;
-        padding: 15px;
         text-decoration: none;
+        width: 200px;
     }
     
     .navbar-btn:hover{

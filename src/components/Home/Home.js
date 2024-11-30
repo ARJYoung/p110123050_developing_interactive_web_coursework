@@ -1,6 +1,7 @@
 import React from 'react';
 import DrMonty from '../../Images/DrMonty.jpg';
 import '../../App.css';
+import '../Home/Home.css';
 import Carousel from 'react-multi-carousel';
 import { Link } from 'react-router-dom';
 import 'react-multi-carousel/lib/styles.css';
@@ -38,48 +39,50 @@ function Home(props) {
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-50-px"
 >
-  <div>
-    <Link to={"/Blog"}>
+  <div className='carousel'>
+    <Link to={"/Blog"} className='carousel'>
       <h1>
-        Check out our Blog
+        Check out our
       </h1>
+      <h1 className>Blog</h1>
     </Link>
-    <br/>
   </div>
-  <div>
-    <Link to={"/Products"}>
-      <h1>
+  <div className='carousel'>
+    <br/>
+    <Link to={"/Products"} className='carousel'>
+      <h1 >
         Now Introducing Cans 
       </h1>
     </Link>
     <br/>
+    <br/>
   </div>
-  <div>
-    <Link to={"/Product2"}>
+  <div className='carousel'>
+    <Link to={"/Product2"} className='carousel'>
       <h1>
         Improved Recipe: 
       </h1>
       <h1>Double Tap II</h1>
     </Link>
-    <br/>
   </div>
-  <div>
-    <Link to={"/Creator"}>
+  <div className='carousel'>
+    <Link to={"/Creator"} className='carousel'>
       <h1>
-        Become an affiliate
+        Become an
       </h1>
+      <h1>affiliate</h1>
     </Link>
-    <br/>
   </div>
-  <div>
-    <Link to={"/Chat"}>
-      <h1>
+  <div className='carousel'>
+    <Link to={"/Chat"} className='carousel'>
+      <h1 className='carousel'>
         Chat with us
       </h1>
     </Link>
     <br/>
+    <br/>
   </div>
-</Carousel>;
+</Carousel>
     </div>
     <div class="row">
       <div class="col-md">
@@ -94,10 +97,12 @@ function Home(props) {
        but was one of the powerful member in his species, 
        likely leading them to victory.
       </p>
+      <br/>
       </div>
       <div class="col-md">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/cvArR7CFXLs?si=XR9Dum4UmaVLG2Z_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+      <br/>
     </div>
   </div>;
 }
