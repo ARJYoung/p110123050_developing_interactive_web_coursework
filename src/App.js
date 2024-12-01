@@ -26,9 +26,6 @@ import Product2 from './components/Product1';
 import Product3 from './components/Product3';
 import Product4 from './components/Product4';
 import Products from './components/Products';
-import ShoppingCart from './components/ShoppingCart';
-import ShoppingCheckout from './components/ShoppingCheckout';
-import ShoppingCheckoutComplete from './components/ShoppingCheckoutComplete';
 import TCs from './components/TCs';
 
 function App() {
@@ -58,9 +55,6 @@ function App() {
           <Route path="/Product3" Component={Product3}/>
           <Route path="/Product4" Component={Product4} />
           <Route path="/Products" Component={Products}/>
-          <Route path="/ShoppingCart" Component={ShoppingCart} />
-          <Route path="/Checkout" Component={ShoppingCheckout}/>
-          <Route path="/Complete" Component={ShoppingCheckoutComplete}/>
           <Route path="/T&Cs" Component={TCs} />
         </Routes>
       </BrowserRouter>

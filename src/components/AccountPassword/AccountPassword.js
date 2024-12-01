@@ -9,11 +9,11 @@ function AccountPassword() {
         <h1> Change Password</h1>
       </div>
       <div className='row'>
-        <input type="password" name="passwordChange" id="passwordChange" className="password-input" placeholder="Enter new password" />
+        <input type="password" name="passwordChange" id="passwordChange" className="form-input" placeholder="Enter new password" />
       </div>
       <br/>
       <div className='row'>
-        <input type="password" name="PasswordConfirm" id="PasswordCofirm" className="password-input" placeholder="Confirm new password" />
+        <input type="password" name="PasswordConfirm" id="PasswordCofirm" className="form-input" placeholder="Confirm new password" />
       </div>
       <br/>
       <div class='row'>
