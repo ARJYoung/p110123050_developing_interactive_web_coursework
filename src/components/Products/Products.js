@@ -3,7 +3,7 @@ import '../Products/Products.css';
 import deadshotLogo from '../../Images/deadshotLogo.jpg';
 import tombstoneLogo from '../../Images/tombstoneLogo.jpg';
 import elementalPop from '../../Images/elementalPop.png';
-import DoubleTap2 from '../../Images/doubletap2.jpg';
+import doubletap2logo from '../../Images/doubletap2logo.jpg';
 import jug from '../../Images/jug.jpg';
 import electric from '../../Images/electric.png';
 
@@ -27,7 +27,7 @@ function Products() {
       <div class="card">
   <div class="card-body">
     <h5 class="card-title">Double Tap II</h5>
-    <img src={DoubleTap2} className='image'/>
+    <img src={doubletap2logo} className='image'/>
     <br/>
     <p class="card-text">This Perk increases the rate of fire of your weapon and doubles the bullets fired in an interesting way.</p>
     <a href="/Product2" class="btn btn-primary">Learn more here</a>
