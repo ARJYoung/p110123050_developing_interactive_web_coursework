@@ -4,7 +4,7 @@ import '../Product2/Product2.css'
 
 function Product2() {
   return <div>
-        <h1>Double Tap II</h1>
+    <h1>Double Tap II</h1>
     <div class="row">
       <div class="col-md text">
 <p>To error is human, to forgive is divine
@@ -22,16 +22,11 @@ Just try, try again for me
 With the headshot power of  daiquiri! </p>
       </div>
       <div class="col-md">
-      <img src={doubletap2logo} className='image'/>
+      <img src={doubletap2logo.jpg} className='image'/>
       </div>
       <div class="col-md text">
         
-<p>A strawberry infused daiquiri boosted with unearthly elements.
-   To give your shooting eye a better perspective
-   when fighting the hoards.
-   This handy beverage will have your eyes dart to the heads of those who oppose.
-    you get up, they go down. 
-    Only available certain parts of the USA, Siberia Germany, Japan, Poland, Vietnam, Urzikstan The Moon, Russia and Agartha
+<p>A st
     </p>
       </div>
       </div>
