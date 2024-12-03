@@ -30,12 +30,7 @@ function Navbar() {
             <br/>
             <br/>
             <div className='col-sm'>
-            <a href='/FAQ'className='navbar-btn navbar-btn-hover' role="button">Help</a>
-            </div>
-            <br/>
-            <br/>
-            <div className='col-sm'>
-            <a href='/Chat'className='navbar-btn navbar-btn-hover' role="button">Chat</a>
+            <a href='/FAQs'className='navbar-btn navbar-btn-hover' role="button">Help</a>
             </div>
             <br/>
             <br/>

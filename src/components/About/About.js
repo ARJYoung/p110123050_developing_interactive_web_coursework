@@ -3,6 +3,7 @@ import Perk from '../../Images/perks.jpg';
 
 function About() {
   return <div>
+    <br/>
     <h2>About us</h2>
     <p> We are a small company that speicalise is selling Perk A Colas</p>
     <p> We have been established since 2024 and are currently setting up partnerships</p>

@@ -14,8 +14,6 @@ import AccountLogIn from './components/AccountLogIn';
 import AccountPasswordChanged from './components/AccountPasswordChanged';
 import AccountPassword from './components/AccountPassword';
 import AccountSuccesful from'./components/AccountSuccesful';
-import Blog from './components/Blog';
-import Chat from './components/Chat';
 import Creator from './components/Creator';
 import CreatorForm from './components/CreatorForm';
 import CreatorFormSubmitted from './components/CreatorFormSubmitted';
@@ -44,8 +42,6 @@ function App() {
           <Route path="/AccountPassword" Component={AccountPassword}/>
           <Route path = "/Password" Component={AccountPasswordChanged}/>
           <Route path="/Succesful" Component={AccountSuccesful}/>
-          <Route path= "/Blog" Component={Blog}/>
-          <Route path= "/Chat" Component={Chat}/>
           <Route path="/Creator" Component={Creator}/>
           <Route path="/Form" Component={CreatorForm}/>
           <Route path ="/Submitted" Component={CreatorFormSubmitted} />
