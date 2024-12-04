@@ -19,7 +19,7 @@ function Products() {
     <h5 class="card-title">Deadshot</h5>
     <img src={deadshotLogo} className='image'/>
     <p class="card-text">Increases critical hit damage and aiming down sights moves automatically to an enemy's critical hit location.</p>
-    <a href="/Product1" class="btn btn-primary">Learn more here</a>
+    <a href="/Deadshot" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>
@@ -30,7 +30,7 @@ function Products() {
     <img src={doubletap2logo} className='image'/>
     <br/>
     <p class="card-text">This Perk increases the rate of fire of your weapon and doubles the bullets fired in an interesting way.</p>
-    <a href="/Product2" class="btn btn-primary">Learn more here</a>
+    <a href="/DoubleTapII" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>
@@ -40,7 +40,7 @@ function Products() {
     <h5 class="card-title">Jugger-Nog</h5>
     <img src={jug} className='image'/>
     <p class="card-text">This perk increases the players health allowing them to take more damage from enemies.</p>
-    <a href="#" class="btn btn-primary">Learn more here</a>
+    <a href="Juggernog" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>
@@ -54,7 +54,7 @@ function Products() {
     <h5 class="card-title">Electric Cherry</h5>
     <img src={electric} className='image'/>
     <p class="card-text">This perk creates an electric shockwave around the player whenever they reload that may stun an adjacent zombie.</p>
-    <a href="#" class="btn btn-primary">Learn more here</a>
+    <a href="ElectricCherry" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>
@@ -64,7 +64,7 @@ function Products() {
     <h5 class="card-title">Tombstone Soda</h5>
     <img src={tombstoneLogo} className='image'/>
     <p class="card-text">This perk drops a tombstone wherever you may have died, preserving the last weapons you held.</p>
-    <a href="/Product3" class="btn btn-primary">Learn more here</a>
+    <a href="Tombstone" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>
@@ -74,7 +74,7 @@ function Products() {
     <h5 class="card-title">Elemental Pop</h5>
     <img src={elementalPop} className='image'/>
     <p class="card-text">This perk gives every bullet fired a small chance to apply a random base Ammo Mod effect at the base tier.</p>
-    <a href="/Product4" class="btn btn-primary">Learn more here</a>
+    <a href="ElementalPop" class="btn btn-primary">Learn more here</a>
   </div>
   </div>
       </div>

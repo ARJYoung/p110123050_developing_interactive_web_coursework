@@ -19,10 +19,12 @@ import CreatorForm from './components/CreatorForm';
 import CreatorFormSubmitted from './components/CreatorFormSubmitted';
 import FAQs from './components/FAQs';
 import Home from './components/Home';
-import Product1 from './components/Product1';
-import Product2 from './components/Product1';
-import Product3 from './components/Product3';
-import Product4 from './components/Product4';
+import Deadshot from './components/Deadshot';
+import Juggernog from './components/Juggernog';
+import DoubleTapII from './components/DoubleTapII';
+import Tombstone from './components/TombstoneSoda';
+import ElectricCherry from './components/ElectricCherry';
+import ElementalPop from './components/ElementalPop';
 import Products from './components/Products';
 import TCs from './components/TCs';
 
@@ -46,11 +48,13 @@ function App() {
           <Route path="/Form" Component={CreatorForm}/>
           <Route path ="/Submitted" Component={CreatorFormSubmitted} />
           <Route path="/FAQs" Component={FAQs}/>
-          <Route path="/Product1" Component={Product1}/>
-          <Route path="/Product2" Component={Product2}/>
-          <Route path="/Product3" Component={Product3}/>
-          <Route path="/Product4" Component={Product4} />
           <Route path="/Products" Component={Products}/>
+          <Route path="/Deadshot" Component={Deadshot}/>
+          <Route path="/DoubleTapII" Component={DoubleTapII}/>
+          <Route path="/Juggernog" Component={Juggernog}/>
+          <Route path="/Tombstone" Component={Tombstone}/>
+          <Route path="/ElectricCherry" Component={ElectricCherry}/>
+          <Route path="/ElementalPop" Component={ElementalPop}/>
           <Route path="/T&Cs" Component={TCs} />
         </Routes>
       </BrowserRouter>
