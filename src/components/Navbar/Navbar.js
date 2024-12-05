@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import Search from '../Search/Search';
+import burningflamessoda from '../../Images/burningflamessoda.png';
 
 function Navbar() {
   
@@ -8,7 +9,9 @@ function Navbar() {
     <div className='background'>
         <div class ="row">
           <div class="col-sm">
-            Logo goes here
+          <a href='/'>
+            <img src={burningflamessoda} className='image'/>
+          </a>
           </div>
           <div class="col-sm">
             <Search/>

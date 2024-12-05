@@ -7,11 +7,13 @@ function Footer() {
       <div class="row">
       <div class="col-md">
         <h2>Contact information</h2>
-        <p>Email</p>
-        <p>Phone</p>
+        <p>Email: montykeeper@agartha.com</p>
+
+        <p>Phone: 1-377-907-7330</p>
       </div>
       <div class="col-md">
-        <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=17%20Toftland,%20Orton%20Malborne,%20Peterborough,%20PE2%205PE+(Perk-A-Colas)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      <div>
+        <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Burgstra%C3%9Fe%202,%205450%20Werfen,%20Austria+(Burg%20Hohenwerfen)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" className='map'> </iframe>
       </div>
       <div class="col-md">
         <br/>
@@ -22,6 +24,7 @@ function Footer() {
         <ul><a href='/Products' class="item item-hover">Products</a></ul>
       </div>
       </div>
+    </div>
     </div>
   )
 }
