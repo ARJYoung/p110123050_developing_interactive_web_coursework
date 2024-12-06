@@ -58,7 +58,7 @@ function Home(props) {
     <br/>
   </div>
   <div className='carousel'>
-    <Link to={"/Product2"} className='carousel'>
+    <Link to={"/doubletapii"} className='carousel'>
       <h1>
         Improved Recipe: 
       </h1>
